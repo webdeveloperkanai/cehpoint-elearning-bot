@@ -2,9 +2,7 @@ from time import sleep
 from pyfiglet import Figlet
 import os
 
-os.system('color 1f')
-
-f = Figlet(font='ascii___')
+f = Figlet()
 
 print(f.renderText("CEHPOINT"))
 
@@ -22,23 +20,18 @@ def _ReadFunc(c):
     if(c==0) :
         os.system('exit')
     elif (c == 1):
-        os.system('color 0a')
         msg = "pentesting"
         _TermSelect(c, msg)
     elif (c == 2):
-        os.system('color 27')
         msg = "bug bounty"
         _TermSelect(c, msg)
     elif (c == 3):
-        os.system('color af')
         msg = "cyber security"
         _TermSelect(c, msg)
     elif (c == 4):
-        os.system('color 0f')
         msg ="Web Development"
         _TermSelect(c, msg)
     elif (c == 5):
-        os.system('color 74')
         msg= "How To Make Money"
         _TermSelect(c, msg)
     else:
