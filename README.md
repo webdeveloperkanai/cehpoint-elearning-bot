@@ -1,4 +1,4 @@
-# Cehpoint Eleaning Bot
+# Cehpoint Elearning Bot
 This is an automatic e-learning bot designed by @webdeveloperkanai for CEHPOINT 
 
 #installing dependency 
